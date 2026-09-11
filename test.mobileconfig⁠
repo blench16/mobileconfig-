@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDisplayName</key>
+	<string>Web Clip 演示</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.webclip.profile</string>
+	<key>PayloadOrganization</key>
+	<string>Demo Organization</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.example.webclip.payload</string>
+			<key>PayloadUUID</key>
+			<string>B2C3D4E5-F6A7-8901-BCDE-F12345678901</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip Payload</string>
+			<key>Label</key>
+			<string>这是个描述文件</string>
+			<key>URL</key>
+			<string>data:text/html;charset=utf-8,%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Cmeta%20name=%22viewport%22%20content=%22width=device-width,%20initial-scale=1.0%22%3E%3Cstyle%3Ebody%7Bfont-family:-apple-system;display:flex;justify-content:center;align-items:center;height:100vh;margin:0;font-size:24px;%7D%3C/style%3E%3C/head%3E%3Cbody%3E%E8%BF%99%E6%98%AF%E4%B8%AA%E6%8F%8F%E8%BF%B0%E6%96%87%E4%BB%B6%3C/body%3E%3C/html%3E</string>
+			<key>IsRemovable</key>
+			<true/>
+			<key>FullScreen</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
